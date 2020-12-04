@@ -1,0 +1,29 @@
+.column1 {
+      display:block;
+      float: left;
+      width: 75%;
+      height: 100vh;
+}
+.column2 {
+    display:block;
+    float: right;
+    width: 25%;
+    height: 100vh;
+    max-width: 222px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media only screen and (max-width: 990px){
+    .column2 {
+        display:none;
+    }
+    .column1 {
+        display:block;
+        width: 100%;
+    } 
+}
