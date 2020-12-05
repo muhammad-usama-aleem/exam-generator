@@ -121,3 +121,12 @@ ul {
   margin-bottom: 5px !important;
   margin-top: 0rem;
 }
+.set_values
+{
+  overflow: hidden;
+  outline: none;
+  background-color: #f8f8f8;
+  border: #f8f8f8 solid 1px;
+  width:100%;
+  
+}
