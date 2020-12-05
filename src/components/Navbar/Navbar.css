@@ -216,6 +216,7 @@ nav, .navbar {
     }
 
     .navbar #menu-toggle:checked~.nav .nav-links {
+        z-index: 1;
         left: 0
     }
 

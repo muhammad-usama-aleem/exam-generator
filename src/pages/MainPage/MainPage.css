@@ -1,4 +1,5 @@
 .column1 {
+    overflow-y: scroll;
       display:block;
       float: left;
       width: 75%;

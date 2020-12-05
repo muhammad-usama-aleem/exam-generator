@@ -74,13 +74,13 @@ const Data = [
                 {
                     id: 3,
                     content: "Zeichne in das Koordinatensystem die folgenden 3 Punkte ein:  A(3/1), B(3/7), C(-5/1)",
-                    list: [" •	Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu.",
-                        " •	Gib nun die Koordinaten der Punkte an"
+                    list: [" •    Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu.",
+                        " •    Gib nun die Koordinaten der Punkte an"
                     ],
                     points: 9,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
                     ],
                     type: 'no_options',
                     img: [LU1_Q3]
@@ -88,13 +88,13 @@ const Data = [
                 {
                     id: 4,
                     content: "Zeichne in das Koordinatensystem die folgenden 3 Punkte ein:A(4/1), B(4/7), C(-4/1)",
-                    list: [" •	Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
-                        " •	Gib nun die Koordinaten der Punkte an "
+                    list: [" •    Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
+                        " •    Gib nun die Koordinaten der Punkte an "
                     ],
                     points: 9,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
                     ],
                     type: 'no_options',
                     img: [LU1_Q3]
@@ -103,13 +103,13 @@ const Data = [
                     id: 5,
                     content: "Zeichne in das Koordinatensystem die folgenden 3 Punkte ein:A(5/1), B(5/7), C(-5/1) ",
 
-                    list: [" •	Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
-                        " •	Gib nun die Koordinaten der Punkte an "
+                    list: [" •    Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
+                        " •    Gib nun die Koordinaten der Punkte an "
                     ],
                     points: 9,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
                     ],
                     type: 'no_options',
                     img: [LU1_Q3]
@@ -117,13 +117,13 @@ const Data = [
                 {
                     id: 6,
                     content: "Zeichne in das Koordinatensystem die folgenden 3 Punkte ein:A(-2/1), B(3/7), C(-2/7) ",
-                    list: [" •	Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
-                        " •	Gib nun die Koordinaten der Punkte an "
+                    list: [" •    Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
+                        " •    Gib nun die Koordinaten der Punkte an "
                     ],
                     points: 9,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
                     ],
                     type: 'no_options',
                     img: [LU1_Q3]
@@ -131,13 +131,13 @@ const Data = [
                 {
                     id: 7,
                     content: "Zeichne in das Koordinatensystem die folgenden 3 Punkte ein: A(3-5/-1), B(3/-1), C(-5/1) ",
-                    list: [" •	Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
-                        " •	Gib nun die Koordinaten der Punkte an "
+                    list: [" •    Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
+                        " •    Gib nun die Koordinaten der Punkte an "
                     ],
                     points: 9,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
                     ],
                     type: 'no_options',
                     img: [LU1_Q3]
@@ -145,13 +145,13 @@ const Data = [
                 {
                     id: 8,
                     content: "Zeichne in das Koordinatensystem die folgenden 3 Punkte ein: A(-3/7), B(3/7), C(-5/1)",
-                    list: [" •	Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
-                        " •	Gib nun die Koordinaten der Punkte an "
+                    list: [" •    Spiegle das Dreieck anschliessend an der X-Achse. Ordne den neuen Punkten die Bezeichnungen A’, B’, C’ zu. ",
+                        " •    Gib nun die Koordinaten der Punkte an "
                     ],
                     points: 9,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln."
                     ],
                     type: 'no_options',
                     img: [LU1_Q3]
@@ -159,15 +159,15 @@ const Data = [
                 {
                     id: 9,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A(-1/1), B(5/1), C(5/5), D(-1/5). ",
-                    list: [" •	Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.  ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an. "
+                    list: [" •    Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.  ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an. "
                     ],
                     points: 9,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -175,15 +175,15 @@ const Data = [
                 {
                     id: 10,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A (-2/1), B (2/1), C (2/5), D (-2/5).  ",
-                    list: [" •	Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an."
+                    list: [" •    Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an."
                     ],
                     points: 12,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -191,15 +191,15 @@ const Data = [
                 {
                     id: 11,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A (-7/1), B (5/1), C (5/-5), D (-7/-5).   ",
-                    list: [" •	Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an."
+                    list: [" •    Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an."
                     ],
                     points: 12,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -207,15 +207,15 @@ const Data = [
                 {
                     id: 12,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A(-3/1), B(5/2), C(4/5), D(1/-2).   ",
-                    list: [" •	Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an."
+                    list: [" •    Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an."
                     ],
                     points: 12,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -223,15 +223,15 @@ const Data = [
                 {
                     id: 13,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A(3/1), B(5/7), C(5/5), D(1/5).   ",
-                    list: [" •	Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an."
+                    list: [" •    Drehe nun die 4 Punkte um 180° um den Punkt P(0/0). Zeichne sie im Koordinatensystem ein.   ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an."
                     ],
                     points: 12,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -239,15 +239,15 @@ const Data = [
                 {
                     id: 14,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A(-1/1), B(5/1), C(5/5), D(-1/5).    ",
-                    list: ["•	Drehe nun die 4 Punkte um 180° um den Punkt P(2/0). Zeichne sie im Koordinatensystem ein.   ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an."
+                    list: ["•    Drehe nun die 4 Punkte um 180° um den Punkt P(2/0). Zeichne sie im Koordinatensystem ein.   ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an."
                     ],
                     points: 12,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -255,15 +255,15 @@ const Data = [
                 {
                     id: 15,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A (-2/1), B (2/1), C (2/5), D (-2/5).  ",
-                    list: [" •	Drehe nun die 4 Punkte um 180° um den Punkt P(-2/0). Zeichne sie im Koordinatensystem ein.   ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an."
+                    list: [" •    Drehe nun die 4 Punkte um 180° um den Punkt P(-2/0). Zeichne sie im Koordinatensystem ein.   ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an."
                     ],
                     points: 12,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -271,15 +271,15 @@ const Data = [
                 {
                     id: 16,
                     content: "Zeichne die folgenden 4 Punkte in das Koordinatensystem ein: A (-7/1), B (5/1), C (5/-5), D (-7/-5).  ",
-                    list: [" •	Drehe nun die 4 Punkte um 180° um den Punkt P(-3/-1). Zeichne sie im Koordinatensystem ein.   ",
-                        " •	Gib anschliessend die Koordinaten der 4 neuen Punkte an."
+                    list: [" •    Drehe nun die 4 Punkte um 180° um den Punkt P(-3/-1). Zeichne sie im Koordinatensystem ein.   ",
+                        " •    Gib anschliessend die Koordinaten der 4 neuen Punkte an."
                     ],
                     points: 12,
                     level: '****',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben."
                     ],
                     type: 'no_options',
                     img: [LU1_Q9]
@@ -287,17 +287,17 @@ const Data = [
                 {
                     id: 17,
                     content: "Wo landet ein Punkt aus dem 1. Quadrant, wenn er:   ",
-                    list: ["    a)	an der X-Achse gespiegelt wird?",
-                        "b)	an der Y-Achse gespiegelt wird?",
-                        "c)	am Punkt (0/0) gespiegelt wird?",
-                        "d)	um 90° gegen den Uhrzeigersinn gedreht wird? "
+                    list: ["    a)    an der X-Achse gespiegelt wird?",
+                        "b)    an der Y-Achse gespiegelt wird?",
+                        "c)    am Punkt (0/0) gespiegelt wird?",
+                        "d)    um 90° gegen den Uhrzeigersinn gedreht wird? "
                     ],
                     points: 4,
                     level: '**',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'no_options',
                     img: []
@@ -305,17 +305,17 @@ const Data = [
                 {
                     id: 18,
                     content: "Wo landet ein Punkt aus dem 2. Quadrant, wenn er:    ",
-                    list: ["    a)	an der X-Achse gespiegelt wird?",
-                        "b)	an der Y-Achse gespiegelt wird?",
-                        "c)	am Punkt (0/0) gespiegelt wird?",
-                        "d)	um 90° gegen den Uhrzeigersinn gedreht wird? "
+                    list: ["    a)    an der X-Achse gespiegelt wird?",
+                        "b)    an der Y-Achse gespiegelt wird?",
+                        "c)    am Punkt (0/0) gespiegelt wird?",
+                        "d)    um 90° gegen den Uhrzeigersinn gedreht wird? "
                     ],
                     points: 4,
                     level: '***',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'no_options',
                     img: []
@@ -323,17 +323,17 @@ const Data = [
                 {
                     id: 19,
                     content: "Wo landet ein Punkt aus dem 3. Quadrant, wenn er:    ",
-                    list: ["    a)	an der X-Achse gespiegelt wird?",
-                        "b)	an der Y-Achse gespiegelt wird?",
-                        "c)	am Punkt (0/0) gespiegelt wird?",
-                        "d)	um 90° gegen den Uhrzeigersinn gedreht wird? "
+                    list: ["    a)    an der X-Achse gespiegelt wird?",
+                        "b)    an der Y-Achse gespiegelt wird?",
+                        "c)    am Punkt (0/0) gespiegelt wird?",
+                        "d)    um 90° gegen den Uhrzeigersinn gedreht wird? "
                     ],
                     points: 4,
                     level: '**',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'no_options',
                     img: []
@@ -341,17 +341,17 @@ const Data = [
                 {
                     id: 20,
                     content: "Wo landet ein Punkt aus dem 4. Quadrant, wenn er:    ",
-                    list: ["    a)	an der X-Achse gespiegelt wird?",
-                        "b)	an der Y-Achse gespiegelt wird?",
-                        "c)	am Punkt (0/0) gespiegelt wird?",
-                        "d)	um 90° gegen den Uhrzeigersinn gedreht wird? "
+                    list: ["    a)    an der X-Achse gespiegelt wird?",
+                        "b)    an der Y-Achse gespiegelt wird?",
+                        "c)    am Punkt (0/0) gespiegelt wird?",
+                        "d)    um 90° gegen den Uhrzeigersinn gedreht wird? "
                     ],
                     points: 4,
                     level: '**',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'no_options',
                     img: []
@@ -362,7 +362,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q21]
                 },
@@ -372,7 +372,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q22]
                 },
@@ -382,7 +382,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q23]
                 },
@@ -392,7 +392,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q24]
                 },
@@ -402,7 +402,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q25]
                 },
@@ -412,7 +412,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q26]
                 },
@@ -422,7 +422,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q27]
                 },
@@ -432,7 +432,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '*',
-                    learning_goals: ["•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
+                    learning_goals: ["•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen."],
                     type: 'no_options',
                     img: [LU1_Q28]
                 },
@@ -449,10 +449,10 @@ const Data = [
                     ],
                     points: 3,
                     level: '**',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'options',
                     img: [LU1_Q29]
@@ -470,10 +470,10 @@ const Data = [
                     ],
                     points: 3,
                     level: '**',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'options',
                     img: [LU1_Q30]
@@ -491,10 +491,10 @@ const Data = [
                     ],
                     points: 3,
                     level: '**',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'options',
                     img: [LU1_Q31]
@@ -512,17 +512,17 @@ const Data = [
                     ],
                     points: 3,
                     level: '**',
-                    learning_goals: ["•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                    learning_goals: ["•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'options',
                     img: [LU1_Q32]
                 },
                 {
                     id: 33,
-                    content: "Konstruiere das Dreieck ABC.   ",
+                    content: "Konstruiere das Dreieck ABC.",
                     list: [
                         "A(5/4)",
                         "B(3/2)",
@@ -532,31 +532,22 @@ const Data = [
                     points: 3,
                     level: '***',
                     learning_goals: [
-                        "•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                        "•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
                     ],
                     type: 'no_options',
                     img: []
                 },
             ],
-            learning_aims: [{
-                    id: "* oder **",
-                    amins: [
-                        "•	Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
-                        "•	Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln."
-                    ]
-                },
-                {
-                    id: "*** oder ****",
-                    amins: [
-                        "•	Koordinaten von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen. ",
-                        "•	im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln. ",
-                        "•	im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. ",
-                        "•	Figuren mit Zirkel und Lineal an einer Achse oder an einem Punkt spiegeln. "
-                    ]
-                }
+            learning_aims: [
+                        "•    Koordination von Punkten in einem Koordinatensystem bestimmen und Punkte in ein Koordinatensystem eintragen.",
+                        "•    im Koordinatensystem Figuren an einer Achse oder an einem Punkt spiegeln.",
+                        "•    im Koordinatensystem Figuren um einen Punkt um 180° drehen.",
+                        "•    Figuren mit Zirkel und Massstab an einer Achse oder an einem Punkt spiegeln.",              
+                        "•    im Koordinatensystem Figuren um einen Punkt um 90° oder 180° drehen und um eine gerichtete Strecke verschieben. "
+                     
+                    
+                
             ]
         }
     },
@@ -566,14 +557,14 @@ const Data = [
                     id: 34,
                     content: "Gib Flächeninhalt und Umfang der Figur als Term an.",
                     list: ["Weitere Aufgaben: ",
-                        LU2_Q34_1,
-                        LU2_Q34_2,
-                        LU2_Q34_3,
-                        LU2_Q34_4,
+                        <img src={LU2_Q34_1} alt='LU2_Q34_1' />,
+                        <img src={LU2_Q34_2} alt='LU2_Q34_2' />,
+                        <img src={LU2_Q34_3} alt='LU2_Q34_3' />,
+                        <img src={LU2_Q34_4} alt='LU2_Q34_4' />,
                     ],
                     points: 4,
                     level: '**',
-                    learning_goals: ["•	Den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben."],
+                    learning_goals: ["•    Den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben."],
                     type: 'no_options',
                     img: [LU2_Q34]
                 },
@@ -588,7 +579,7 @@ const Data = [
                     ],
                     points: 3,
                     level: '**',
-                    learning_goals: ["•	zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "],
+                    learning_goals: ["•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "],
                     type: 'no_options',
                     img: [LU2_Q35]
                 },
@@ -604,7 +595,7 @@ const Data = [
                     ],
                     points: 3,
                     level: '**',
-                    learning_goals: ["•	zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "],
+                    learning_goals: ["•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "],
                     type: 'no_options',
                     img: [LU2_Q35]
                 },
@@ -618,8 +609,8 @@ const Data = [
                     ],
                     points: 3,
                     level: '***',
-                    learning_goals: ["•	Terme ausmultiplizieren und gleichwertige Terme erkennen.",
-                        "•	zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
+                    learning_goals: ["•    Terme ausmultiplizieren und gleichwertige Terme erkennen.",
+                        "•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
                     ],
                     type: 'no_options',
                     img: [LU2_Q37]
@@ -627,15 +618,15 @@ const Data = [
                 {
                     id: 38,
                     content: "Ordne der grau schraffierten Figur die passenden Terme zu. ",
-                    list: ["i)	ac+ab+b^2+bc+a^2+ab",
+                    list: ["i)    ac+ab+b^2+bc+a^2+ab",
                         " ii) (a+b+c)(2a+b)",
                         " iii) a^2+b^2+2ab+2ac+bc",
                         " iv) (a+b+c)(2a+b)-(a^2+ab)"
                     ],
                     points: 3,
                     level: '***',
-                    learning_goals: ["•	Terme ausmultiplizieren und gleichwertige Terme erkennen.",
-                        "•	zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
+                    learning_goals: ["•    Terme ausmultiplizieren und gleichwertige Terme erkennen.",
+                        "•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
                     ],
                     type: 'no_options',
                     img: [LU2_Q38]
@@ -643,15 +634,15 @@ const Data = [
                 {
                     id: 39,
                     content: "Ordne der grau schraffierten Figur die passenden Terme zu. ",
-                    list: ["i)	(a+b+c)(a)",
+                    list: ["i)    (a+b+c)(a)",
                         "ii) (a+b+c)(3a)-2ab",
                         "iii) 4ab+3ac",
                         "iv) 6ab+3ac"
                     ],
                     points: 3,
                     level: '***',
-                    learning_goals: ["•	Terme ausmultiplizieren und gleichwertige Terme erkennen.",
-                        "•	zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
+                    learning_goals: ["•    Terme ausmultiplizieren und gleichwertige Terme erkennen.",
+                        "•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
                     ],
                     type: 'no_options',
                     img: [LU2_Q39]
@@ -659,37 +650,37 @@ const Data = [
                 {
                     id: 40,
                     content: "Ordne der grau schraffierten Figur die passenden Terme zu. ",
-                    list: ["i)	a^2+b^2+c^2+ab+ac+bc",
+                    list: ["i)    a^2+b^2+c^2+ab+ac+bc",
                         "ii)〖(a+b+c)〗^2-ab-ac-bc",
                         "iii)〖(a+b+c)〗^2-(ab+ac+bc)",
                         "iv) a^2+b^2+ac+bc+d"
                     ],
                     points: 3,
                     level: '***',
-                    learning_goals: ["•	Terme ausmultiplizieren und gleichwertige Terme erkennen.",
-                        "•	zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
+                    learning_goals: ["•    Terme ausmultiplizieren und gleichwertige Terme erkennen.",
+                        "•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
                     ],
                     type: 'no_options',
                     img: [LU2_Q40]
                 },
                 {
                     id: 41,
-                    content: "Multipliziere die Gleichungen aus. Schreibe dein Resultat alphabetisch geordnet und mit absteigendem Exponent. \n a)  (a+b)(a+b)=	  \n b) (a+b)(a-b)=  \n  c) (a-b)(a-b)=	\n d) (a-b)(a+b)=",
+                    content: "Multipliziere die Gleichungen aus. Schreibe dein Resultat alphabetisch geordnet und mit absteigendem Exponent. \n a)  (a+b)(a+b)=      \n b) (a+b)(a-b)=  \n  c) (a-b)(a-b)=    \n d) (a-b)(a+b)=",
                     list: ["Weitere Aufgaben",
-                        "e)〖(a+b)〗^2=	",
-                        "f)〖(a-b)〗^2=	",
+                        "e)〖(a+b)〗^2=    ",
+                        "f)〖(a-b)〗^2=    ",
                         "g) (a+2b)(b-c)=",
-                        "h) (2a+3b)(3a+2b)=	",
-                        "i) (5a)(3a+2b)=	",
+                        "h) (2a+3b)(3a+2b)=    ",
+                        "i) (5a)(3a+2b)=    ",
                         "j) (10a-4a+4b)(3a+2b)= ",
-                        "k) (15a+3b+4c)(2b+2c)=		",
+                        "k) (15a+3b+4c)(2b+2c)=        ",
                         "l) (a)(2a+b)=",
                         "m) (2a)(3a+5)=",
                         "n) (4a+1)(2a+4)=",
                         "o) (c)(a+b)=",
-                        "p) (5a+2)(3a+2)=	",
-                        "q) (2/3 a)(a+b)=	",
-                        "r) (3/4 a+1/2 b)(1/3 a+3/4 b)=		",
+                        "p) (5a+2)(3a+2)=    ",
+                        "q) (2/3 a)(a+b)=    ",
+                        "r) (3/4 a+1/2 b)(1/3 a+3/4 b)=        ",
                         "s) (1/2 a+2/3 b+3/4 c)(4/5 a+5/6 b)= "
                     ],
                     points: 4,
@@ -700,7 +691,7 @@ const Data = [
                 },
                 {
                     id: 42,
-                    content: "Faktorisiere die Terme soweit wie möglich. \n a) a^2+b^2+2ab= 	\n b) a^2+b^2-2ab=	\n c) ab+ac= 	\n d) 2a^2+4a+8ab=",
+                    content: "Faktorisiere die Terme soweit wie möglich. \n a) a^2+b^2+2ab=     \n b) a^2+b^2-2ab=    \n c) ab+ac=     \n d) 2a^2+4a+8ab=",
                     list: ["Weitere Aufgaben: ",
                         "e) 3ab+27ac+33a=",
                         "f) 6ab+36b^2=",
@@ -708,7 +699,7 @@ const Data = [
                         "h) 15ab+25a^2=",
                         "i) 22bc+33ac+99c^2=",
                         "j) 17ab+12ac+9a^2=",
-                        "k) 35b^2+14ab=	"
+                        "k) 35b^2+14ab=    "
                     ],
                     points: 4,
                     level: '** - ****',
@@ -718,7 +709,7 @@ const Data = [
                 },
                 {
                     id: 43,
-                    content: "Notiere zu jedem Term einen einfacheren, gleichwertigen Term.  \n a) 3a+5b+9a=  	\n b) 6a+2b+7a+3c=	\n c) 4a+2b+3c+3c= 	\n d) (9a+2b)+(7a+3b)=",
+                    content: "Notiere zu jedem Term einen einfacheren, gleichwertigen Term.  \n a) 3a+5b+9a=      \n b) 6a+2b+7a+3c=    \n c) 4a+2b+3c+3c=     \n d) (9a+2b)+(7a+3b)=",
                     list: ["Weitere Aufgaben: ",
                         "e) (7a+7b)+7a+7c=",
                         "f) 3a+2b+3c+(5a+7c)=",
@@ -734,7 +725,7 @@ const Data = [
                 },
                 {
                     id: 44,
-                    content: "Finde die gleichwertigen Terme.   \n a) 3a^2+4ab+b^2= 	\n b) 9a^2+6ab+b^2=	\n c) 9a^2-6ab+b^2= 	\n d) 9a^2-6ab+b^2=",
+                    content: "Finde die gleichwertigen Terme.   \n a) 3a^2+4ab+b^2=     \n b) 9a^2+6ab+b^2=    \n c) 9a^2-6ab+b^2=     \n d) 9a^2-6ab+b^2=",
                     list: ["Weitere Aufgaben: ",
                         "e) 16a^2+8ac+c^2=",
                         "f) 10a+2b+6c=",
@@ -753,17 +744,17 @@ const Data = [
                     id: 45,
                     content: "Berechne die Fläche und den Umfang der grauen Figur als Term. Berechne anschliessend die Fläche und den Umfang als Zahl. ",
                     list: ["Weitere Aufgaben: ",
-                        LU2_Q45_1,
-                        LU2_Q45_2,
-                        LU2_Q45_3,
-                        LU2_Q45_4,
-                        LU2_Q45_5,
+                    <img src={LU2_Q45_1} alt='LU2_Q45_1' />,
+                    <img src={LU2_Q45_2} alt='LU2_Q45_2' />,
+                    <img src={LU2_Q45_3} alt='LU2_Q45_3' />,
+                    <img src={LU2_Q45_4} alt='LU2_Q45_4' />,
+                    <img src={LU2_Q45_5} alt='LU2_Q45_5' />,
                        
                     ],
                     points: 4,
                     level: '***',
-                    learning_goals: ["•	Variablen in Termen durch Zahlen ersetzen und den Wert der Terme bestimmen. ",
-                        "•	Den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben. "
+                    learning_goals: ["•    Variablen in Termen durch Zahlen ersetzen und den Wert der Terme bestimmen. ",
+                        "•    Den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben. "
                     ],
                     type: 'no_options',
                     img: [LU2_Q45]
@@ -773,23 +764,15 @@ const Data = [
 
 
             ],
-            learning_aims: [{
-                    id: "*** oder ****",
-                    amins: [
-                        "•	zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. ",
-                        "•	verschiedene gleichwertige Terme finden. ",
-                        "•	zwei Klammerausdrücke mit zwei Summanden ausmultiplizieren. ",
-                        "•	bei geeigneten Termen ein Produkt in eine Summe umwandeln und umgekehrt. "
-                    ]
-                },
-                {
-                    id: "* oder **",
-                    amins: [
-                        "•	den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben.",
-                        "•	Variablen in Termen durch Zahlen ersetzen und den Wert der Terme bestimmen.",
-                        "•	Terme ausmultiplizieren und gleichwertige Terme erkennen"
-                    ]
-                }
+            learning_aims: [
+                        "•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. ",
+                        "•    verschiedene gleichwertige Terme finden. ",
+                        "•    zwei Klammerausdrücke mit zwei Summanden ausmultiplizieren. ",
+                        "•    bei geeigneten Termen ein Produkt in eine Summe umwandeln und umgekehrt. ",
+                        "•    den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben.",
+                        "•    Variablen in Termen durch Zahlen ersetzen und den Wert der Terme bestimmen.",
+                        "•    Terme ausmultiplizieren und gleichwertige Terme erkennen"
+                
             ]
         }
     },
@@ -813,7 +796,7 @@ const Data = [
                     ],
                     points: 9,
                     level: '**',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
                     type: 'no_options',
                     img: [LU3_Q46]
                 },
@@ -836,7 +819,7 @@ const Data = [
                     ],
                     points: 9,
                     level: '**',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
                     type: 'no_options',
                     img: [LU3_Q47]
                 },
@@ -853,7 +836,7 @@ const Data = [
                     ],
                     points: 9,
                     level: '**',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
                     type: 'no_options',
                     img: [LU3_Q48]
                 },
@@ -869,7 +852,7 @@ const Data = [
                     ],
                     points: 9,
                     level: '**',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
                     type: 'no_options',
                     img: [LU3_Q49]
                 },
@@ -879,7 +862,7 @@ const Data = [
                     list: [],
                     points: 3,
                     level: '**',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
                     type: 'no_options',
                     img: [LU3_Q50]
                 },
@@ -889,7 +872,7 @@ const Data = [
                     list: [],
                     points: 2,
                     level: '**',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben."],
                     type: 'no_options',
                     img: []
                 },
@@ -899,7 +882,7 @@ const Data = [
                     list: [],
                     points: 1,
                     level: '*',
-                    learning_goals: ["•	Zu einer Wertetabelle einen passenden Text erstelle"],
+                    learning_goals: ["•    Zu einer Wertetabelle einen passenden Text erstelle"],
                     type: 'no_options',
                     img: []
                 },
@@ -909,11 +892,11 @@ const Data = [
                     list: [],
                     points: 7.5,
                     level: '**',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben.",
-                        "•	zu einer Wertetabelle einen passenden Text erstellen.",
-                        "•	Terme einer Wertetabelle zuordnen.",
-                        "•	Terme miteinander vergleichen. ",
-                        "•	zu einer Wertetabelle unterschiedliche Terme finden. "
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben.",
+                        "•    zu einer Wertetabelle einen passenden Text erstellen.",
+                        "•    Terme einer Wertetabelle zuordnen.",
+                        "•    Terme miteinander vergleichen. ",
+                        "•    zu einer Wertetabelle unterschiedliche Terme finden. "
                     ],
                     type: 'no_options',
                     img: [LU3_Q53]
@@ -924,11 +907,11 @@ const Data = [
                     list: [],
                     points: 6,
                     level: '***',
-                    learning_goals: ["•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben.",
-                        "•	zu einer Wertetabelle einen passenden Text erstellen.",
-                        "•	Terme einer Wertetabelle zuordnen.",
-                        "•	Terme miteinander vergleichen. ",
-                        "•	zu einer Wertetabelle unterschiedliche Terme finden. "
+                    learning_goals: ["•    bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben.",
+                        "•    zu einer Wertetabelle einen passenden Text erstellen.",
+                        "•    Terme einer Wertetabelle zuordnen.",
+                        "•    Terme miteinander vergleichen. ",
+                        "•    zu einer Wertetabelle unterschiedliche Terme finden. "
                     ],
                     type: 'no_options',
                     img: [LU3_Q54]
@@ -937,14 +920,14 @@ const Data = [
                     id: 55,
                     content: " Wer hat am meisten: Ordne 1. Rang=am meisten",
                     list: ["Weitere Aufgaben: ",
-                        LU3_Q55_1,
-                        LU3_Q55_2,
-                        LU3_Q55_3,
-                        LU3_Q55_4
+                        <img src={LU3_Q55_1} alt='LU3_Q55_1' />,
+                        <img src={LU3_Q55_2} alt='LU3_Q55_2' />,
+                        <img src={LU3_Q55_3} alt='LU3_Q55_3' />,
+                        <img src={LU3_Q55_4} alt='LU3_Q55_4' />
                     ],
                     points: 2,
                     level: '*',
-                    learning_goals: ["•	bei einem Vergleich erkennen, welche Anzahl grösser ist."],
+                    learning_goals: ["•    bei einem Vergleich erkennen, welche Anzahl grösser ist."],
                     type: 'no_options',
                     img: [LU3_Q55]
                 },
@@ -952,11 +935,11 @@ const Data = [
                     id: 56,
                     content: " Wer hat am meisten Stifte. Ordne 1. Rang = am meisten. ",
                     list: ["Weitere Aufgaben: ",
-                        LU3_Q56_1,
+                        <img src={LU3_Q56_1} alt='LU3_Q56_1' />,
                     ],
                     points: 6,
                     level: '***',
-                    learning_goals: ["•	bei einem Vergleich erkennen, welche Anzahl grösser ist."],
+                    learning_goals: ["•    bei einem Vergleich erkennen, welche Anzahl grösser ist."],
                     type: 'no_options',
                     img: [LU3_Q56]
                 }
@@ -964,26 +947,12 @@ const Data = [
 
 
             ],
-            learning_aims: [{
-                    id: "*** oder ****",
-                    amins: [
-                        "•	bei einem Vergleich erkennen, welche Anzahl grösser ist.",
-                        "•	zu einem Text eine Wertetabelle erstellen und einen passenden Term Angeben.",
-                        "•	Terme miteinander vergleichen.",
-                        "•	zu einer Wertetabelle unterschiedliche Terme finden. "
+            learning_aims: [
+                        "•    bei einem Vergleich erkennen, welche Anzahl grösser ist.",
+                        "•    zu einem Text eine Wertetabelle erstellen und einen passenden Term Angeben.",
+                        "•    Terme miteinander vergleichen.",
+                        "•    zu einer Wertetabelle unterschiedliche Terme finden. "
 
-                    ]
-                },
-                {
-                    id: "* oder **",
-                    amins: [
-                        "•	bei einem Vergleich erkennen, welche Anzahl grösser ist.",
-                        "•	bei einem Text eine Wertetabelle erstellen und einen passenden Term angeben.",
-                        "•	zu einer Wertetabelle einen passenden Text erstellen.",
-                        "•	Terme einer Wertetabelle zuordnen."
-
-                    ]
-                }
             ]
         }
     },
@@ -992,11 +961,11 @@ const Data = [
         LU4: {
             questions: [{
                     id: 57,
-                    content: " Fachbegriffe  \n x/y  \n Wie heisst x?_____________________________	\n	Wie heisst y?____________________________",
+                    content: " Fachbegriffe  \n x/y  \n Wie heisst x?_____________________________    \n    Wie heisst y?____________________________",
                     list: [],
                     points: 2,
                     level: '*',
-                    learning_goals: ["•	Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
+                    learning_goals: ["•    Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
                     type: 'no_options',
                     img: []
                 },
@@ -1014,7 +983,7 @@ const Data = [
                     ],
                     points: 4,
                     level: '**',
-                    learning_goals: ["•	Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
+                    learning_goals: ["•    Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
                     type: 'no_options',
                     img: []
                 },
@@ -1032,7 +1001,7 @@ const Data = [
                     ],
                     points: 3.5,
                     level: '***',
-                    learning_goals: ["•	Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
+                    learning_goals: ["•    Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
                     type: 'no_options',
                     img: []
                 },
@@ -1051,7 +1020,7 @@ const Data = [
                     ],
                     points: 3,
                     level: '***',
-                    learning_goals: ["•	Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
+                    learning_goals: ["•    Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen."],
                     type: 'no_options',
                     img: []
                 },
@@ -1079,37 +1048,28 @@ const Data = [
                     id: 62,
                     content: "  Notiere die Bruchmultiplikation die hier dargestellt wird und gib das Resultat an. ",
                     list: ["Weitere Aufgaben: ",
-                        LU4_Q62_1
+                        <img src={LU4_Q62_1} alt='LU4_Q62_1' />
 
 
                     ],
                     points: 3,
                     level: '****',
-                    learning_goals: ["•	Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen.",
-                        "•	gebrochene Zahlen multiplizieren.",
-                        "•	Kopfrechnungen zu allen vier Grundoperationen mit gebrochenen Zahlen durchführen."
+                    learning_goals: ["•    Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen.",
+                        "•    gebrochene Zahlen multiplizieren.",
+                        "•    Kopfrechnungen zu allen vier Grundoperationen mit gebrochenen Zahlen durchführen."
                     ],
                     type: 'no_options',
                     img: [LU4_Q62]
                 },
 
             ],
-            learning_aims: [{
-                    id: "* oder **",
-                    amins: [
-                      "  •	Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen.",
-						"•	gebrochene Zahlen multiplizieren."
+            learning_aims: [
+                    
+                      "  •    Addition, Subtraktion und Multiplikation mit Brüchen an Modellen verstehen und nachvollziehen.",
+                        "•    gebrochene Zahlen multiplizieren.",
+                         "     •    die vier Grundoperationen mit Bürchen an Modellen verstehen, nachvollziehen und ausführen",
+                        "    •    Kopfrechnungen zu allen vier Grundoperationen mit gebrochenen Zahlen durchführen"
 
-                    ]
-                },
-				{
-					 id: "*** oder ****",
-                    amins: [
-                         " 	•	die vier Grundoperationen mit Bürchen an Modellen verstehen, nachvollziehen und ausführen",
-						"	•	Kopfrechnungen zu allen vier Grundoperationen mit gebrochenen Zahlen durchführen"
-
-                    ]
-				}
             ]
         }
     }

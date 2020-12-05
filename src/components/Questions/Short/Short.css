@@ -6,7 +6,9 @@
     border-radius: 5px;
     padding-bottom: 20px;
 }
-
+.question{
+    margin: 10px;
+}
 .points{
     display:flex;
     justify-content: flex-start;

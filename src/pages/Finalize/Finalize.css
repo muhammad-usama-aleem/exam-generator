@@ -1,0 +1,123 @@
+.parent {
+  padding: 4%;
+}
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #000;
+  padding: .35em;
+}
+
+table th,
+table td {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: black solid 1px;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 1px solid black;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table td {
+    border-bottom: 1px solid black;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+.list_header {
+  position: absolute;
+  font-weight: bold;
+  margin-top: -2rem;
+}
+
+.items_list {
+  position: relative;
+  left: 0.5rem;
+}
+
+.chapter {
+  margin-bottom: 4rem;
+}
+
+.label {
+  display: inline-block;
+  width: 10rem;
+}
+
+.details {
+  margin-top: 15px;
+  left: 60%;
+  padding-right: 100px;
+}
+
+.items-allowed {
+  margin-left: -90px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bold * :not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.combination {
+  display: flex;
+  justify-content: space-around;
+}
+.details-text{
+  margin-bottom: 5px !important;
+  margin-top: 0rem;
+}

@@ -1,4 +1,5 @@
 .center{
+  z-index: -1;
   position: inherit;
   text-align: center;
   margin-left: auto;
