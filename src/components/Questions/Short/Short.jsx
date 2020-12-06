@@ -2,9 +2,40 @@ import React from 'react';
 import Data from '../../../Data/Data';
 import Mcqs from './Mcqs/Mcqs';
 import './Short.css';
+import {connect} from 'react-redux';
+import {addQuestion,removeQuestion} from '../../../Redux/Actions/addRemoveActions';
+
+const mapDispatchToProps=(dispatch)=>({
+addQuestion:(data)=>dispatch(addQuestion(data)),
+removeQuestion:(data)=>dispatch(removeQuestion(data)),
+//populateState:(data)=>dispatch(populateState(data))
+})
 
 function Short(props) {
-    const tobechange = Data[1].LU2.questions[0];
+
+
+function addOrRemove(event)
+{
+
+ console.log("hello")
+  console.log(event.target.name)
+   if(event.target.name==='Add')
+   {
+    console.log(event.target.value)
+     props.addQuestion(props.ques)
+   }else {
+     props.removeQuestion(props.ques.id)
+   }
+
+}
+
+    // if(props.ques)
+    // {
+
+    // }
+
+    console.log(props,"props")
+    const tobechange = props.ques;
     return (
         <div className="main-section">
             {/* {console.log(Data[0].LU1.questions[0].content)} */}
@@ -34,8 +65,8 @@ function Short(props) {
                     <button type="button" className="points-text">Punkte: {tobechange.points}</button>
                 </div>
                 <div className="Control">
-                    <button type="button" className="control-text">Remove</button>
-                    <button type="button" className="control-text">Add</button>
+                    <button name="Remove" onClick={addOrRemove} type="button" className="control-text">Remove</button>
+                    <button name="Add" onClick={addOrRemove} type="button" className="control-text">Add</button>
                 </div>
             </div>
             <div className="extra_spacing">
@@ -44,4 +75,4 @@ function Short(props) {
     )
 }
 
-export default Short;
+export default connect(null,mapDispatchToProps)(Short);

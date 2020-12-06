@@ -5,3 +5,6 @@ export const CHECK_FIFTY='CHECK_FIFTY';
 export const CHECK_SIXTY='CHECK_SIXTY';
 export const CHECK_FORMEL='CHECK_FORMEL';
 export const CHECK_SELBSTDEFINIERT='CHECK_SELBSTDEFINIERT';
+export const ADD='ADD';
+export const REMOVE='REMOVE';
+// export const POPULATE_STATE='POPULATE_STATE';

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Finalize.css';
 import {connect} from 'react-redux';
 import {checkFifty,checkSixty,checkFormel,checkSelbstdefiniert} from '../../Redux/Actions/finalizeActions'; 
@@ -10,7 +10,8 @@ sixty:state.finalizeReducer.sixty,
 formel: state.finalizeReducer.formel,
 selbstdefiniert:state.finalizeReducer.selbstdefiniert,
 setLock:state.finalizeReducer.setLock,
-chapter:state.filterReducer.chapter
+chapter:state.filterReducer.chapter,
+questions:state.addRemoveReducer.questions
 })
 
 
@@ -26,6 +27,8 @@ trueSelbstdefiniert:(val)=>dispatch(checkSelbstdefiniert(val))
 
 const Finalize = ({chapter,fifty,sixty,formel,selbstdefiniert,trueFifty,trueSixty,trueFormel,trueSelbstdefiniert,setLock}) => {
 
+
+const [clear,setClear]=useState(false);
 function checkIfChecked(event)
 {
 	if(event.target.checked)
@@ -144,6 +147,7 @@ function checkIfChecked(event)
 					</tr>
 				</tbody>
 			</table>
+			<button >Done</button>
 		</div>
 	</>
 

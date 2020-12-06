@@ -2,7 +2,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './Preview.css';
 
-export default function Preview() {
+
+
+
+ function Preview() {
     return (
         <>
             <div className="preview">
@@ -19,3 +22,4 @@ export default function Preview() {
         </>
     )
 }
+export default Preview;
