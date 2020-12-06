@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import './Finalize.css';
 import {connect} from 'react-redux';
 import {checkFifty,checkSixty,checkFormel,checkSelbstdefiniert} from '../../Redux/Actions/finalizeActions'; 
+import Mcqs from '../../components/Questions/Short/Mcqs/Mcqs'
 
 
 const mapStateToProps=(state)=>({
@@ -25,7 +26,7 @@ trueSelbstdefiniert:(val)=>dispatch(checkSelbstdefiniert(val))
 })
 
 
-const Finalize = ({chapter,fifty,sixty,formel,selbstdefiniert,trueFifty,trueSixty,trueFormel,trueSelbstdefiniert,setLock}) => {
+const Finalize = ({chapter,fifty,sixty,formel,selbstdefiniert,trueFifty,trueSixty,trueFormel,trueSelbstdefiniert,setLock,questions}) => {
 
 
 const [clear,setClear]=useState(false);
@@ -107,7 +108,7 @@ function checkIfChecked(event)
 					<p className='details-text'>Unterschrift der Eltern:</p>		
 				</div>
 				</div>
-				<table>
+				<table className={!clear?null:"display"}>
 				<tbody>
 					<tr>
 					<td >50%</td>
@@ -147,7 +148,58 @@ function checkIfChecked(event)
 					</tr>
 				</tbody>
 			</table>
-			<button >Done</button>
+			<button onClick={()=>setClear(true)} className={!clear?null:"display"}>Done</button>
+			{
+
+                  //jni work here osmaa
+				clear?questions.map(ques=>{
+					// console.log("i am true")
+     //               return <p>{ques.content}</p>
+                  
+            {/* {console.log(Data[0].LU1.questions[0].content)} */}
+           return <div className='questionsection'>
+                <h3 className='question'>Q: {ques.content}</h3>
+                {/* FOR IMAGE */}
+                {(ques.img !== undefined || ques.img !== 0) ?
+                    <img src={ques.img} alt={ques.img} />            
+                :
+                    null
+                }
+                {/* END OF IMAGE */}
+                {/* FOR MCQS */}
+                {
+                (ques.list !== undefined || ques.list !== 0) ?
+                    ques.list.map(lists => {
+                        return <Mcqs list={lists} />
+                    })            
+                :
+                    null
+                }
+                {/* END OF MCQ */}
+            </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				})
+               
+				:null
+
+			
+			}
+			
 		</div>
 	</>
 
