@@ -6,7 +6,7 @@ export default (props) => {
   return (
     <section className="pdf-container">
       <section className="pdf-toolbar done-section">
-        <button className="done-text" onClick={createPdf}>Create PDF</button>
+        <button className="done-text" onClick={createPdf}>Download</button>
       </section>
       <section className="pdf-body" ref={bodyRef}>
         {props.children}

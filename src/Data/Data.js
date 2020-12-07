@@ -567,7 +567,7 @@ const Data = [
                     ],
                     points: 4,
                     level: '**',
-                    learning_goals: ["•    Den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben."],
+                    learning_goals: ["•    den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben."],
                     type: 'no_options',
                     img: [LU2_Q34]
                 },
@@ -613,7 +613,8 @@ const Data = [
                     points: 3,
                     level: '***',
                     learning_goals: ["•    Terme ausmultiplizieren und gleichwertige Terme erkennen.",
-                        "•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. "
+                        "•    zu Rechtecken Terme für den Flächeninhalt und für den Umfang angeben und umgekehrt zu entsprechenden Termen passende Rechtecke zeichnen. ",
+                        "•    Terme ausmultiplizieren und gleichwertige Terme erkennen."
                     ],
                     type: 'no_options',
                     img: [LU2_Q37]
@@ -687,7 +688,33 @@ const Data = [
                         "s) (1/2 a+2/3 b+3/4 c)(4/5 a+5/6 b)= "
                     ],
                     points: 4,
-                    level: '**-****',
+                    level: '****',
+                    learning_goals: ["•Terme ausmultiplizieren und gleichwertige Terme erkennen."],
+                    type: 'no_options',
+                    img: []
+                },
+                {
+                    id: 410,
+                    content: "Multipliziere die Gleichungen aus. Schreibe dein Resultat alphabetisch geordnet und mit absteigendem Exponent. \n a)  (a+b)(a+b)=      \n b) (a+b)(a-b)=  \n  c) (a-b)(a-b)=    \n d) (a-b)(a+b)=",
+                    list: ["Weitere Aufgaben",
+                        "e)〖(a+b)〗^2=    ",
+                        "f)〖(a-b)〗^2=    ",
+                        "g) (a+2b)(b-c)=",
+                        "h) (2a+3b)(3a+2b)=    ",
+                        "i) (5a)(3a+2b)=    ",
+                        "j) (10a-4a+4b)(3a+2b)= ",
+                        "k) (15a+3b+4c)(2b+2c)=        ",
+                        "l) (a)(2a+b)=",
+                        "m) (2a)(3a+5)=",
+                        "n) (4a+1)(2a+4)=",
+                        "o) (c)(a+b)=",
+                        "p) (5a+2)(3a+2)=    ",
+                        "q) (2/3 a)(a+b)=    ",
+                        "r) (3/4 a+1/2 b)(1/3 a+3/4 b)=        ",
+                        "s) (1/2 a+2/3 b+3/4 c)(4/5 a+5/6 b)= "
+                    ],
+                    points: 4,
+                    level: '**',
                     learning_goals: ["•Terme ausmultiplizieren und gleichwertige Terme erkennen."],
                     type: 'no_options',
                     img: []
@@ -705,7 +732,25 @@ const Data = [
                         "k) 35b^2+14ab=    "
                     ],
                     points: 4,
-                    level: '** - ****',
+                    level: '****',
+                    learning_goals: ["•Terme ausmultiplizieren und gleichwertige Terme erkennen."],
+                    type: 'no_options',
+                    img: []
+                },
+                {
+                    id: 420,
+                    content: "Faktorisiere die Terme soweit wie möglich. \n a) a^2+b^2+2ab=     \n b) a^2+b^2-2ab=    \n c) ab+ac=     \n d) 2a^2+4a+8ab=",
+                    list: ["Weitere Aufgaben: ",
+                        "e) 3ab+27ac+33a=",
+                        "f) 6ab+36b^2=",
+                        "g) 7ab+49c^2=",
+                        "h) 15ab+25a^2=",
+                        "i) 22bc+33ac+99c^2=",
+                        "j) 17ab+12ac+9a^2=",
+                        "k) 35b^2+14ab=    "
+                    ],
+                    points: 4,
+                    level: '**',
                     learning_goals: ["•Terme ausmultiplizieren und gleichwertige Terme erkennen."],
                     type: 'no_options',
                     img: []
@@ -757,7 +802,7 @@ const Data = [
                     points: 4,
                     level: '***',
                     learning_goals: ["•    Variablen in Termen durch Zahlen ersetzen und den Wert der Terme bestimmen. ",
-                        "•    Den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben. "
+                        "•    den Flächeninhalt und den Umfang eines Rechtecks mit einem Term beschreiben. "
                     ],
                     type: 'no_options',
                     img: [LU2_Q45]

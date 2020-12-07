@@ -24,7 +24,7 @@ const Filters = ({setLock,chapter,setDifficulty,setChapter,setLearningAims}) => 
   return (
       <div className="center">
         <span className="custom-dropdown big">
-            <select   onClick={setChapter}>    
+            <select onClick={setChapter}>    
                 <option>None</option>
                 <option>LU1</option>  
                 <option>LU2</option>

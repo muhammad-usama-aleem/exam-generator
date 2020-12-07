@@ -37,8 +37,6 @@ function addOrRemove(event)
 
 }
 
-
-    console.log(props,"props")
     const tobechange = props.ques;
     return (
         <div className="main-section">
@@ -56,6 +54,7 @@ function addOrRemove(event)
                 {
                 (tobechange.list !== undefined || tobechange.list !== 0) ?
                     tobechange.list.map(lists => {
+                        // eslint-disable-next-line no-undef
                         return <Mcqs list={lists} />
                     })            
                 :
@@ -70,7 +69,7 @@ function addOrRemove(event)
                 </div>
                 <div className="Control">
                     <button disabled={locks[1]} name="Remove" onClick={addOrRemove} type="button" className={locks[1]?"disabled":"control-text"}>Remove</button>
-                    <button    disabled={locks[0]} name="Add" onClick={addOrRemove} type="button" className={locks[0]?"disabled":"control-text"}>Add</button>
+                    <button disabled={locks[0]} name="Add" onClick={addOrRemove} type="button" className={locks[0]?"disabled":"control-text"}>Add</button>
                 </div>
             </div>
             <div className="extra_spacing">

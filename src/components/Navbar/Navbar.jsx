@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Navbar.css';
 
 const Navbar = () => {
@@ -17,12 +18,17 @@ const Navbar = () => {
 
                     <div className="nav">
                     <ul className="nav-links">
-                        <li className="nav-item nav-link">
-                            Preview
-                        </li>
-                        <li className="nav-item nav-link">
-                            Finalize
-                        </li>
+                        <Link to="./finalize" className="navbar-finalize">
+                            <li className="nav-item nav-link">
+                                Preview
+                            </li>
+                        </Link>
+                        <Link to="./finalize" className="navbar-finalize">
+                            <li className="nav-item nav-link">
+                                Finalize
+                            </li>                            
+                        </Link>
+                        
                         <label htmlFor="menu-toggle" className="menu-hide"><i className="fa fa-times"></i></label>
                     </ul>
                     </div>

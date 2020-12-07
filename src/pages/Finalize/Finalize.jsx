@@ -182,9 +182,7 @@ function checkIfChecked(event)
                 
 				clear?questions.map(ques=>{
 					// console.log("i am true")
-     //               return <p>{ques.content}</p>
-                  
-            {/* {console.log(Data[0].LU1.questions[0].content)} */}
+                    // return <p>{ques.content}</p>
            return <div className='questionsection'>
                 <h3 className='question'>Q: {ques.content}</h3>
                 {/* FOR IMAGE */}

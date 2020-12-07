@@ -42,9 +42,9 @@ class MainPage extends React.Component {
                       })
 
                     :this.props.chapter === 'LU2' ?
-                       Data[1].LU2.questions.map(ques=>{                        
+                       Data[1].LU2.questions.map(ques=>{                
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
-                       (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
+                            (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
                             <Short ques={ques} />              
                             :console.log("2nd fail")           
                           : null
@@ -55,7 +55,7 @@ class MainPage extends React.Component {
                        Data[2].LU3.questions.map(ques=>{                        
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
                        (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
-                            <Short ques={ques} />              
+                            <Short key={ques.id} ques={ques} />              
                             :console.log("2nd fail")           
                           : null
                           

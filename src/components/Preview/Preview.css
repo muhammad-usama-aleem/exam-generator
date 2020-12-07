@@ -1,12 +1,18 @@
-.preview{
+
+.finalize-link{
     border: 1px solid black;
+    background: #808080;
+    border-radius: 5px;
+}
+.preview{
     border-radius: 5px;
     padding-top: 6px;
     padding-left: 6px;
     padding-right: 10px;
     margin-right: 12px;
-    background: #808080;
+    margin-left: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 .preview-text{
     padding: 0;
