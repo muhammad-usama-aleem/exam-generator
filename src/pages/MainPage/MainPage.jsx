@@ -60,19 +60,16 @@ class MainPage extends React.Component {
                           : null
                           
                       })
-                    :this.props.chapter === 'LU3' ?
-                       Data[3].LU3.questions.map(ques=>{                        
+                    :this.props.chapter === 'LU4' ?
+                       Data[3].LU4.questions.map(ques=>{                        
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
                        (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
                             <Short ques={ques} />              
                             :console.log("2nd fail")           
-                          : null
-                          
+                          : null                        
                       })
                      :null
-
-                  }
-                     
+                  }                    
                 </div>
                 <div className="column2">   
                     <Preview/>   
