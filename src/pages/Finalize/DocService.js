@@ -4,7 +4,7 @@ class DocService {
   createPdf = (html) => {
     savePDF(html, { 
       paperSize: 'A3',
-      fileName: 'form.pdf',
+      fileName: 'Exam.pdf',
        //margin: { top: '2cm', left: '3cm', right: '0', bottom: '2cm' }//margin top ottom can also be added
     })
   }

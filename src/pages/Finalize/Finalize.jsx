@@ -176,7 +176,7 @@ function checkIfChecked(event)
 					</tr>
 				</tbody>
 			</table>
-			<div className="done-section"><button onClick={()=>setClear(true)}   className={!clear?"done-text":"display"}>Done</button></div>
+			<div className="done-section"><button onClick={()=>setClear(true)}   className={!clear?"done-text":"display"}>Preview</button></div>
 			{
 
                 
