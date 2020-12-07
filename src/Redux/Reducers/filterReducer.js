@@ -32,7 +32,7 @@ export const filterReducer=(state=initialState,action={})=>{
         {
              return initialState; 
         }
-       
+        
       	case SET_DIFFICULTY:   
       	if( state.chapter!=='None')
         {
@@ -44,7 +44,7 @@ export const filterReducer=(state=initialState,action={})=>{
               return{...state,difficulty:action.payload} 
             } 
          }
-
+       break;
       	case SET_LEARNING_AIMS:
    
            return{...state,learning_goals:action.payload};

@@ -7,7 +7,6 @@ import Data from '../../Data/Data';
 import {connect} from 'react-redux';
 
 
-console.log(Data[1].LU2,"hello data");
 
 
  const mapStateToProps=(state)=>({
@@ -22,8 +21,7 @@ console.log(Data[1].LU2,"hello data");
 
 class MainPage extends React.Component {
     render() {
-     console.log(this.props.chapter,this.props.learning_goals,this.props.difficulty,this.props.setLock,'c,lg,d,sl');
-
+   
 
         return (
             <>
@@ -35,8 +33,8 @@ class MainPage extends React.Component {
                    Data[0].LU1.questions.map(ques=>{                        
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
                        (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
-                            <Short ques={ques} />              
-                            :console.log("2nd fail")           
+                            <Short key={Math.random()*1000/Math.random()} ques={ques} />              
+                            :null         
                           : null
                           
                       })
@@ -45,8 +43,8 @@ class MainPage extends React.Component {
                        Data[1].LU2.questions.map(ques=>{                
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
                             (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
-                            <Short ques={ques} />              
-                            :console.log("2nd fail")           
+                            <Short  key={Math.random()*2000/Math.random()}  ques={ques} />              
+                            :null        
                           : null
                           
                       })
@@ -55,8 +53,8 @@ class MainPage extends React.Component {
                        Data[2].LU3.questions.map(ques=>{                        
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
                        (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
-                            <Short key={ques.id} ques={ques} />              
-                            :console.log("2nd fail")           
+                            <Short key={Math.random()*1000/Math.random()*500}  ques={ques} />              
+                            :null         
                           : null
                           
                       })
@@ -65,15 +63,15 @@ class MainPage extends React.Component {
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
                        (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
                             <Short ques={ques} />              
-                            :console.log("2nd fail")           
+                            :null         
                           : null                        
                       })
                      :this.props.chapter === 'LU9' ?
                        Data[4].LU9.questions.map(ques=>{                        
                          return   ((Object.values(ques).includes(this.props.difficulty))  )?   
                        (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
-                            <Short ques={ques} />              
-                            :console.log("2nd fail")           
+                            <Short key={Math.random()*1000/Math.random()*2000} ques={ques} />              
+                            :null         
                           : null                        
                       })
 

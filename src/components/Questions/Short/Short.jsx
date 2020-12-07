@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import Data from '../../../Data/Data';
 import Mcqs from './Mcqs/Mcqs';
 import './Short.css';
 import {connect} from 'react-redux';
@@ -26,7 +25,7 @@ function addOrRemove(event)
    if(event.target.name==='Add')
    {
        endis([1,0])
-       console.log(locks)
+     
 
      props.addQuestion(props.ques)
 
@@ -39,7 +38,7 @@ function addOrRemove(event)
 
     const tobechange = props.ques;
     return (
-        <div className="main-section">
+        <div   className="main-section">
             {/* {console.log(Data[0].LU1.questions[0].content)} */}
             <div className='questionsection'>
                 <h3 className='question'>Q: {tobechange.content}</h3>

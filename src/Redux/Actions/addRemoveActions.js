@@ -1,4 +1,4 @@
-import {ADD,REMOVE,POPULATE_STATE} from '../Types/types';
+import {ADD,REMOVE} from '../Types/types';
 
 
 
@@ -18,12 +18,6 @@ export const removeQuestion=(ques)=>({
 
 }
 )
-
-// export const populateState=(ques)=>({
-// type:POPULATE_STATE,
-// payload:ques
-
-// })
 
 
 
