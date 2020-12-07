@@ -3,7 +3,7 @@ import {ADD,REMOVE,POPULATE_STATE} from '../Types/types.js';
 
 const initialState={
         questions:[],
-        displayQuestions:[]
+       points:0
 }
 
 
@@ -12,36 +12,10 @@ export const addRemoveReducer=(state=initialState,action={})=>{
       switch(action.type)
       {
       	case ADD:
-
-        return{...state,questions:state.questions.concat(action.payload)}
-
+        return{...state,questions:state.questions.concat(action.payload),points:state.points+Number(action.payload.points)}
         case REMOVE:
         let newarray=[];
-        
-        return{...state,questions: state.questions.filter((ques) => ques.id !== action.payload)}
-
-      //   case POPULATE_STATE:
-      //     let contains=false;
-      //     state.displayQuestions.map(ques=>{
-      //       if(ques.id===action.payload.id)
-      //       {
-      //         contains=true
-      //       }
-      //     })       //lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0)
-
-      //    if(!contains)
-      //    {
-      //   return{...state,displayQuestions:state.displayQuestions.push(action.payload)}
-      // }
-      // else
-      // {
-      //   return state;
-      // }
-
-
-
-
-	    
+        return{...state,questions: state.questions.filter((ques) => ques.id !== action.payload.id),points:state.points-Number(action.payload.points)}	    
       	default:
       	return state
       }

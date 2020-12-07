@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Data from '../../../Data/Data';
 import Mcqs from './Mcqs/Mcqs';
 import './Short.css';
@@ -8,31 +8,35 @@ import {addQuestion,removeQuestion} from '../../../Redux/Actions/addRemoveAction
 const mapDispatchToProps=(dispatch)=>({
 addQuestion:(data)=>dispatch(addQuestion(data)),
 removeQuestion:(data)=>dispatch(removeQuestion(data)),
-//populateState:(data)=>dispatch(populateState(data))
 })
 
 function Short(props) {
 
 
+
+const [locks,endis]=useState([0,1]);
+
+
+
+
 function addOrRemove(event)
 {
 
- console.log("hello")
-  console.log(event.target.name)
+
    if(event.target.name==='Add')
    {
-    console.log(event.target.value)
+       endis([1,0])
+       console.log(locks)
+
      props.addQuestion(props.ques)
+
    }else {
-     props.removeQuestion(props.ques.id)
+         endis([0,1])
+     props.removeQuestion(props.ques)
    }
 
 }
 
-    // if(props.ques)
-    // {
-
-    // }
 
     console.log(props,"props")
     const tobechange = props.ques;
@@ -65,8 +69,8 @@ function addOrRemove(event)
                     <button type="button" className="points-text">Punkte: {tobechange.points}</button>
                 </div>
                 <div className="Control">
-                    <button name="Remove" onClick={addOrRemove} type="button" className="control-text">Remove</button>
-                    <button name="Add" onClick={addOrRemove} type="button" className="control-text">Add</button>
+                    <button disabled={locks[1]} name="Remove" onClick={addOrRemove} type="button" className={locks[1]?"disabled":"control-text"}>Remove</button>
+                    <button    disabled={locks[0]} name="Add" onClick={addOrRemove} type="button" className={locks[0]?"disabled":"control-text"}>Add</button>
                 </div>
             </div>
             <div className="extra_spacing">

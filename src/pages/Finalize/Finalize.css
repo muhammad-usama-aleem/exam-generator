@@ -3,6 +3,42 @@
   overflow: scroll;
 }
 
+.done-section
+{
+  margin-top: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+
+.done-text{
+    background-color: #7f8c8d;
+    color: #fff;
+    font-size: inherit;
+    padding: .5em;
+    padding-right: 2.5em;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    text-indent: 40.01px;
+    /*width: 100%;*/
+    margin-right: 14px;
+     text-decoration: none;
+}
+
+.done-text:hover{
+ background-color: #737b7b;
+ color: rgb(44, 40, 40);
+  cursor: pointer;
+}
+
+.scaling-table{
+
+  margin-bottom: 20px;
+}
+
+
+
 table {
   border: 1px solid #000;
   border-collapse: collapse;

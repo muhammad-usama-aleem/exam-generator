@@ -4,6 +4,10 @@ import {connect} from 'react-redux';
 import {checkFifty,checkSixty,checkFormel,checkSelbstdefiniert} from '../../Redux/Actions/finalizeActions'; 
 import Mcqs from '../../components/Questions/Short/Mcqs/Mcqs'
 
+import Doc from './DocService';
+import PdfContainer from './PdfContainer';
+
+
 
 const mapStateToProps=(state)=>({
 fifty:state.finalizeReducer.fifty,
@@ -12,7 +16,8 @@ formel: state.finalizeReducer.formel,
 selbstdefiniert:state.finalizeReducer.selbstdefiniert,
 setLock:state.finalizeReducer.setLock,
 chapter:state.filterReducer.chapter,
-questions:state.addRemoveReducer.questions
+questions:state.addRemoveReducer.questions,
+points:state.addRemoveReducer.points
 })
 
 
@@ -26,7 +31,22 @@ trueSelbstdefiniert:(val)=>dispatch(checkSelbstdefiniert(val))
 })
 
 
-const Finalize = ({chapter,fifty,sixty,formel,selbstdefiniert,trueFifty,trueSixty,trueFormel,trueSelbstdefiniert,setLock,questions}) => {
+
+
+
+
+function createPdf (html)  {Doc.createPdf(html);}
+
+
+
+
+
+
+
+
+
+
+const Finalize = ({points,chapter,fifty,sixty,formel,selbstdefiniert,trueFifty,trueSixty,trueFormel,trueSelbstdefiniert,setLock,questions}) => {
 
 
 const [clear,setClear]=useState(false);
@@ -71,8 +91,16 @@ function checkIfChecked(event)
 
 }
 
+
+
+
+
+
+
     return (
     <>
+        
+   <PdfContainer createPdf={createPdf}>
 		<div className="parent" >
 			<h1 className="chapter">Lernkontrolle {chapter}</h1>
 			<div className="combination">
@@ -108,7 +136,7 @@ function checkIfChecked(event)
 					<p className='details-text'>Unterschrift der Eltern:</p>		
 				</div>
 				</div>
-				<table className={!clear?null:"display"}>
+				<table className={!clear?"scaling-table":"display"}>
 				<tbody>
 					<tr>
 					<td >50%</td>
@@ -141,17 +169,17 @@ function checkIfChecked(event)
 				<tbody>
 
 					<tr>
-					<td data-label="Maximum">data to get</td>
+					<td data-label="Maximum">{points}</td>
 					<td data-label="6">{fifty?'90%':sixty?'94%':formel?'95%':selbstdefiniert?<input className='set_values' type='text'/>:null}</td>
 					<td data-label="5">{fifty?'70%':sixty?'77%':formel?'75%':selbstdefiniert?<input className='set_values' type='text'/>:null}</td>
 					<td data-label="4">{fifty?'50%':sixty?'60%':formel?'55%':selbstdefiniert?<input  className='set_values' type='text'/>:null}</td>
 					</tr>
 				</tbody>
 			</table>
-			<button onClick={()=>setClear(true)} className={!clear?null:"display"}>Done</button>
+			<div className="done-section"><button onClick={()=>setClear(true)}   className={!clear?"done-text":"display"}>Done</button></div>
 			{
 
-                  //jni work here osmaa
+                
 				clear?questions.map(ques=>{
 					// console.log("i am true")
      //               return <p>{ques.content}</p>
@@ -177,21 +205,6 @@ function checkIfChecked(event)
                 }
                 {/* END OF MCQ */}
             </div>
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 				})
                
@@ -199,8 +212,14 @@ function checkIfChecked(event)
 
 			
 			}
+			 
+
+			
 			
 		</div>
+	
+	
+	</PdfContainer>
 	</>
 
     )

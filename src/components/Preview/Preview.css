@@ -18,6 +18,8 @@
 .finalize{
     display:flex;
     justify-content: center;
+    text-decoration: none;
+
 }
 button.finalize-text {
     background-color: #7f8c8d;
@@ -31,6 +33,7 @@ button.finalize-text {
     text-indent: 40.01px;
     width: 100%;
     margin-right: 14px;
+     text-decoration: none;
 
 }
 button.finalize-text:hover{

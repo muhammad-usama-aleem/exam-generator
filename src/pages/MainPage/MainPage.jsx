@@ -18,10 +18,9 @@ console.log(Data[1].LU2,"hello data");
  })
 
 
+
+
 class MainPage extends React.Component {
-
-
-
     render() {
      console.log(this.props.chapter,this.props.learning_goals,this.props.difficulty,this.props.setLock,'c,lg,d,sl');
 
@@ -71,12 +70,6 @@ class MainPage extends React.Component {
                           
                       })
                      :null
-
-
-                    
-
-
-                    
 
                   }
                      
