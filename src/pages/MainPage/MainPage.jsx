@@ -68,6 +68,16 @@ class MainPage extends React.Component {
                             :console.log("2nd fail")           
                           : null                        
                       })
+                     :this.props.chapter === 'LU9' ?
+                       Data[4].LU9.questions.map(ques=>{                        
+                         return   ((Object.values(ques).includes(this.props.difficulty))  )?   
+                       (ques.learning_goals.map(lg=>lg.split(' ').join('')).indexOf(this.props.learning_goals.split(' ').join('') )>=0) ?
+                            <Short ques={ques} />              
+                            :console.log("2nd fail")           
+                          : null                        
+                      })
+
+
                      :null
                   }                    
                 </div>

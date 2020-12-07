@@ -44,10 +44,13 @@ import LU3_Q56 from './compressed/LU3_Q56.png';
 import LU3_Q56_1 from './compressed/LU3_Q56_1.png';
 import LU4_Q62 from './compressed/LU4_Q62.png';
 import LU4_Q62_1 from './compressed/LU4_Q62_1.png';
-
-
-
-
+import LU9_Q64 from './compressed/LU9_Q64.png';
+import LU9_Q65 from './compressed/LU9_Q65.png';
+import LU9_Q66 from './compressed/LU9_Q66.png';
+import LU9_Q67 from './compressed/LU9_Q67.png';
+import LU9_Q67_1 from './compressed/LU9_Q67_1.png';
+import LU9_Q68 from './compressed/LU9_Q67.png';
+import LU9_Q68_1 from './compressed/LU9_Q67_1.png';
 const Data = [
     {
         LU1: {
@@ -1072,6 +1075,119 @@ const Data = [
 
             ]
         }
+    },
+    {
+        LU9: {
+            questions: [{
+                    id: 63,
+                    content: " Erkläre den Unterschied zwischen dem Minus in Gleichung a und dem Minus in Gleichung b ",
+                    list: ["a.) 20-10=" ,
+                           " b)-20+17="],
+                    points: 2,
+                    level: '**',
+                    learning_goals: ["•    die Bedeutung von „+“ und „-„ als Vorzeichen und als Operationszeichen erklären."],
+                    type: 'no_options',
+                    img: []
+                },
+                {
+                    id: 64,
+                    content: " Addition und Subtraktion",
+                    list: [],
+                    points: 4,
+                    level: '**',
+                    learning_goals: ["•    positive und negative Zahlen von positiven und negativen Zahlen addieren und subtrahieren."],
+                    type: 'no_options',
+                    img: [LU9_Q64]
+                },
+                 {
+                    id: 65,
+                    content: "Multiplikation",
+                    list: [],
+                    points: 4,
+                    level: '*',
+                    learning_goals: ["•    positive und negative Zahlen am Malkreuz multiplizieren.",
+                                     "•    positive und negative Zahlen multiplizieren."],
+                    type: 'no_options',
+                    img: [LU9_Q65]
+                },
+                 {
+                    id: 66,
+                    content: " Malkreuz \n  49∙27= \n Stelle die Rechnung auf zwei Arten im Malkreuz dar und berechne sie. ",
+                    list: ["Weitere Aufgaben:", 
+                            "59∙27= ",
+                            "68∙28= ",
+                            "49∙29= ",
+                            "49∙21= ",
+                            "27∙27=", 
+                            "31∙27= ",
+                           " 41∙21= "
+                            ],
+                    points: 4,
+                    level: '**',
+                    learning_goals: ["•    positive und negative Zahlen am Malkreuz multiplizieren.",
+                                     "•    positive und negative Zahlen multiplizieren."],
+                    type: 'no_options',
+                    img: [LU9_Q66]
+                },
+                 {
+                    id: 67,
+                    content: "Temperaturen \n  a.)    Berechne die Durchschnittstemperatur aller Orte? \n b.)    Wie hoch ist der Temperaturunterschied zwischen La Brévine und Oimjakon? \n c.)    Zwischen welchen zwei Orten liegt der grösste Temperaturunterschied? \n d.)    Zwischen welchen 2 Orten liegt der kleinste Temperaturunterschied?",
+                    list: [
+                    "Weitere Aufgaben: ",
+                     <img src={LU9_Q67_1} alt='LU9_Q67_1' />
+
+                    ],
+                    points: 4,
+                    level: '***',
+                    learning_goals: ["•    positive und negative Zahlen am Zahlenstrahl einordnen.",
+                    "•    positive und negative Zahlen von positiven und negativen Zahlen addieren und subtrahieren."],
+                    type: 'no_options',
+                    img: [LU9_Q67]
+                },
+                 {
+                    id: 68,
+                    content: "Zahlen einordnen \n Ordne die Zahlen möglichst genau im Zahlenstrahl ein. ",
+                    list: [
+                    "Weitere Aufgaben: ",
+                     <img src={LU9_Q68_1} alt='LU9_Q68_1' />
+
+                    ],
+                    points: 3,
+                    level: '**',
+                    learning_goals: ["•    positive und negative Zahlen am Zahlenstrahl einordnen."],
+                    type: 'no_options',
+                    img: [LU9_Q68]
+                }
+
+
+
+
+
+
+
+                ],
+                  learning_aims: [
+                  "•    die Bedeutung von «+» und «-» als Vorzeichen und als Operationszeichen erklären. ",
+                  "•    positive und negative Zahlen am Zahlenstrahl einordnen.",
+                  "•    positive und negative Zahlen von positiven und negativen Zahlen addieren und subtrahieren.",
+                  "•    positive und negative Zahlen am Malkreuz multiplizieren.",
+                  "•    positive und negative Zahlen multiplizieren.",
+                  "•    positive und negative Zahlen dividieren.",
+                  "•    positive und negative Zahlen addieren und subtrahieren. ",
+                  "•    positive und negative Zahlen multiplizieren und dividieren. ",
+                  "•    Terme mit positiven und negativen Zahlen auswerten." ,
+                  "•    Terme mit allen vier Grundoperationen auswerten. ",
+                  "•    Äquivalenz von Klammertermen erkennen." ,
+                  "•    Gleichungen mit negativen Zahlen lösen."    
+                
+            ]
+             }
+
+
+
+
+
+
     }
 ]
 

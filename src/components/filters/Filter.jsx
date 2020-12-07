@@ -4,7 +4,7 @@ import Data from '../../Data/Data';
 import {connect} from 'react-redux';
 import {setDifficulty,setChapter,setLearningAims} from '../../Redux/Actions/filterActions';
 
-
+console.log(Data,"Data")
 
 const mapDispatchToProps=(dispatch)=>({
   
@@ -30,6 +30,7 @@ const Filters = ({setLock,chapter,setDifficulty,setChapter,setLearningAims}) => 
                 <option>LU2</option>
                 <option>LU3</option>
                 <option>LU4</option>
+                <option>LU9</option>
             </select>
         </span>
         <span className="custom-dropdown big">
@@ -54,6 +55,7 @@ const Filters = ({setLock,chapter,setDifficulty,setChapter,setLearningAims}) => 
             <select disabled={setLock[1]}  onClick={setLearningAims}> 
               <option>None</option>
               {chapter && chapter!=='None' ?
+                  chapter==='LU9'?Object.values(Data[Number(chapter[2])-5])[0].learning_aims.map(aim=>( <option>{aim}</option>)) :
                   Object.values(Data[Number(chapter[2])-1])[0].learning_aims.map(aim=>( <option>{aim}</option>))
                   : <option>None</option>
               }
