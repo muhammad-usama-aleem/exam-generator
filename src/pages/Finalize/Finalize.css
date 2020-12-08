@@ -172,3 +172,20 @@ ul {
 {
 display: none;
 }
+.finalize-question{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.finalize-question .finalizepoints{
+  position: absolute;
+    right: -16px;
+    top: -16px;
+    border: 1px solid #7f8c8d;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #7f8c8d;
+}

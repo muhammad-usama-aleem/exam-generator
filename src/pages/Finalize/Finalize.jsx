@@ -157,51 +157,52 @@ function checkIfChecked(event)
 					
 				</tbody>
 				</table>
-			<table>
-				<thead>
-					<tr>
-					<th scope="col">Maximum</th>
-					<th scope="col">6</th>
-					<th scope="col">5</th>
-					<th scope="col">4</th>
-					</tr>
-				</thead>
-				<tbody>
+				<table>
+					<thead>
+						<tr>
+						<th scope="col">Maximum</th>
+						<th scope="col">6</th>
+						<th scope="col">5</th>
+						<th scope="col">4</th>
+						</tr>
+					</thead>
+					<tbody>                    
+						<tr>
+						<td data-label="Maximum">{points}</td>
+						<td data-label="6">{fifty?(90*Number(points))/100:sixty?(94*Number(points))/100:formel?(95*Number(points))/100:selbstdefiniert?<input className='set_values' type='text'/>:null}</td>
+						<td data-label="5">{fifty?(70*Number(points))/100:sixty?(77*Number(points))/100:formel?(75*Number(points))/100:selbstdefiniert?<input className='set_values' type='text'/>:null}</td>
+						<td data-label="4">{fifty?(50*Number(points))/100:sixty?(60*Number(points))/100:formel?(55*Number(points))/100:selbstdefiniert?<input  className='set_values' type='text'/>:null}</td>
+						</tr>
+					</tbody>
+				</table>
 
-					<tr>
-					<td data-label="Maximum">{points}</td>
-					<td data-label="6">{fifty?'90%':sixty?'94%':formel?'95%':selbstdefiniert?<input className='set_values' type='text'/>:null}</td>
-					<td data-label="5">{fifty?'70%':sixty?'77%':formel?'75%':selbstdefiniert?<input className='set_values' type='text'/>:null}</td>
-					<td data-label="4">{fifty?'50%':sixty?'60%':formel?'55%':selbstdefiniert?<input  className='set_values' type='text'/>:null}</td>
-					</tr>
-				</tbody>
-			</table>
 			<div className="done-section"><button onClick={()=>setClear(true)}   className={!clear?"done-text":"display"}>Preview</button></div>
 			{
 
                 
 				clear?questions.map(ques=>{
 					
-           return <div className='questionsection'>
-                <h3 className='question'>Q: {ques.content}</h3>
-                {/* FOR IMAGE */}
-                {(ques.img !== undefined || ques.img !== 0) ?
-                    <img src={ques.img} alt={ques.img} />            
-                :
-                    null
-                }
-                {/* END OF IMAGE */}
-                {/* FOR MCQS */}
-                {
-                (ques.list !== undefined || ques.list !== 0) ?
-                    ques.list.map(lists => {
-                        return <Mcqs list={lists} />
-                    })            
-                :
-                    null
-                }
-                {/* END OF MCQ */}
-            </div>
+           return <div className='questionsection finalize-question'>
+			   		<div className="finalizepoints">{ques.points}</div>
+					<h3 className='question'>Q: {ques.content}</h3>
+					{/* FOR IMAGE */}
+					{(ques.img !== undefined || ques.img !== 0) ?
+						<img src={ques.img} alt={ques.img} />            
+					:
+						null
+					}
+					{/* END OF IMAGE */}
+					{/* FOR MCQS */}
+					{
+					(ques.list !== undefined || ques.list !== 0) ?
+						ques.list.map(lists => {
+							return <Mcqs list={lists} />
+						})            
+					:
+						null
+					}
+					{/* END OF MCQ */}
+            	</div>
 
 				})
                
